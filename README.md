@@ -1,4 +1,3 @@
-# aula-11
 # Aula 11 – Redes de Computadores: Topologias, Dispositivos e Meios
 
 ## Identificação
@@ -12,12 +11,16 @@
 | Matrículas   | ________________________            |
 | Data         | ________________________            |
 
+---
+
+## Descrição do Trabalho
+
+Este repositório contém os entregáveis da **Aula 11**, abordando a organização física e lógica das redes de computadores: topologias de rede, comparação entre dispositivos de interconexão e classificação dos meios de transmissão.
 
 ---
 
-## Arquivos Incluídos
+## 1. Topologias de Rede
 
-### `topologia.png`
 Diagrama com as quatro principais topologias de rede, cada uma em seu próprio painel:
 
 | Topologia | Dispositivo Central | Característica Principal |
@@ -26,12 +29,14 @@ Diagrama com as quatro principais topologias de rede, cada uma em seu próprio p
 | **Barramento (Bus)** | Cabo coaxial compartilhado | Meio único; colisões frequentes; legada |
 | **Anel (Ring)** | Token (controle de acesso) | Dados circulam em sentido único; Token Ring/FDDI |
 | **Malha (Mesh)** | Roteadores interligados | Alta redundância; tolerante a falhas |
-![Topologia de Redes](topologia.png)
+
+![Topologias de Rede](topologia.png)
 
 ---
 
-### `dispositivos.png`
-Quadro comparativo entre os três principais dispositivos de interconexão:
+## 2. Quadro Comparativo de Dispositivos
+
+Comparação entre os três principais dispositivos de interconexão de redes:
 
 | Dispositivo | Camada OSI | Função | Exemplo Real |
 |-------------|-----------|--------|--------------|
@@ -39,10 +44,13 @@ Quadro comparativo entre os três principais dispositivos de interconexão:
 | **Switch** | Camada 2 (Enlace) | Encaminha por endereço MAC | Cisco SG350-28 (GbE gerenciável) |
 | **Roteador** | Camada 3 (Rede) | Roteia entre redes por IP | TP-Link Archer AX73 (Wi-Fi 6) |
 
+![Dispositivos de Rede](dispositivos.png)
+
 ---
 
-### `meios_transmissao.png`
-Esquema visual classificando os meios de transmissão em duas categorias, com ilustração de cabo e cenário integrado de rede residencial moderna:
+## 3. Meios de Transmissão
+
+Esquema visual classificando os meios de transmissão em duas categorias, com cenário integrado de rede residencial moderna:
 
 **Meios Guiados (com fio):**
 - Par Trançado UTP/STP (Cat5e, Cat6, Cat6a) — Ethernet doméstica e corporativa
@@ -55,10 +63,15 @@ Esquema visual classificando os meios de transmissão em duas categorias, com il
 - Satélite (GEO / LEO) — zonas rurais, Starlink, backup WAN
 - Infravermelho (IrDA) — controles remotos, transferências legadas
 
+![Meios de Transmissão](meios_transmissao.png)
+
 ---
 
-### `reflexao_individual.md`
-Texto de reflexão individual respondendo: *"Qual topologia seria mais adequada para a rede da sua residência e por quê?"*
+## 4. Reflexão Individual
+
+Texto respondendo: *"Qual topologia seria mais adequada para a rede da sua residência e por quê?"*
+
+> Consulte o arquivo [`reflexao_individual.md`](reflexao_individual.md) para ler o texto completo.
 
 ---
 
