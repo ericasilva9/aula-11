@@ -12,11 +12,6 @@
 | Matrículas   | ________________________            |
 | Data         | ________________________            |
 
----
-
-## Descrição do Trabalho
-
-Este repositório contém os entregáveis da **Aula 11**, abordando a organização física e lógica das redes de computadores: topologias de rede, comparação entre dispositivos de interconexão e classificação dos meios de transmissão.
 
 ---
 
@@ -31,6 +26,7 @@ Diagrama com as quatro principais topologias de rede, cada uma em seu próprio p
 | **Barramento (Bus)** | Cabo coaxial compartilhado | Meio único; colisões frequentes; legada |
 | **Anel (Ring)** | Token (controle de acesso) | Dados circulam em sentido único; Token Ring/FDDI |
 | **Malha (Mesh)** | Roteadores interligados | Alta redundância; tolerante a falhas |
+![Topologia de Redes](topologia.png)
 
 ---
 
